@@ -7,17 +7,29 @@ body {
   background-color: #121212;
   color: #fff;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .section {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 @media only screen and (min-width: 768px) {
   .section {
-    padding: 100px 0;
+    padding: 50px 0;
   }
 }
 @media only screen and (min-width: 1280px) {
   .section {
-    padding: 150px 0;
+    padding: 75px 0;
   }
 }
 .footer {
@@ -42,7 +54,7 @@ body {
 }
 @media only screen and (min-width: 1280px) {
   .container {
-    max-width: 1440px;
+    max-width: 1280px;
     padding: 0 100px;
   }
 }

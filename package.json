@@ -1,10 +1,10 @@
 {
-  "name": "vanilla-app-template",
+  "name": "vteam-project-group-8",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "vite build --base=/team-project-group-8/",
     "preview": "vite preview"
   },
