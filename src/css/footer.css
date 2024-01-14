@@ -4,6 +4,7 @@
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
+        background-image: ;
   
 
 }
@@ -56,7 +57,12 @@ color: #121212;
     border-radius: 12px;
         background: #1D1D1D;
 }
+ .tex-list{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
 
- .text-box{
-    width: 147px;
+ .tex-list-two{
+display: flex;
  }
