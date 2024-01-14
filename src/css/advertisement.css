@@ -1,3 +1,6 @@
+.advertisement {
+  padding-top: 0;
+}
 .marquee {
   overflow: hidden;
   font-size: 28px;
