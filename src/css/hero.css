@@ -1,0 +1,250 @@
+.hero {
+  padding: 20px;
+  padding-bottom: 0;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+
+  /* padding: 0 20px; */
+  padding-top: 40px;
+  /* margin: 0 20px; */
+}
+@media only screen and (min-width: 768px) {
+  .hero-container {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero-container {
+    /* display: flex; */
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: nowrap;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  /* max-width: 295px; */
+  /* margin-bottom: 40px; */
+}
+.hero-description2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* max-width: 295px; */
+  /* margin-bottom: 40px; */
+}
+@media only screen and (min-width: 1280px) {
+  .hero-description {
+    display: flex;
+    justify-content: space-between;
+    max-width: 563px;
+  }
+}
+
+.hero-title,
+.hero-title-span {
+  /* display: block; */
+  /* width: 295px; */
+
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+
+  /* margin-bottom: 20px; */
+}
+.hero-title-span {
+  color: #bea69e;
+  font-style: italic;
+}
+.hero-text {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+
+  /* margin-bottom: 40px; */
+  /* width: 295px; */
+}
+@media only screen and (min-width: 768px) {
+  .hero-title,
+  .hero-title-span {
+    width: 500px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.06;
+    letter-spacing: -0.04em;
+  }
+  .hero-title-span {
+    width: 418px;
+    /* color: #bea69e; */
+    /* font-style: italic; */
+  }
+  .hero-text {
+    width: 418px;
+  }
+}
+
+.hero-users-container {
+  display: flex;
+  gap: 40px;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  max-width: 260px;
+  margin-bottom: 31px;
+}
+/* .hero-users {} */
+.hero-users-box {
+  display: flex;
+  width: 109px;
+
+  flex-wrap: wrap;
+  align-content: flex-start;
+  row-gap: 4px;
+  /* margin-right: 40px; */
+}
+.hero-users-list {
+  display: flex;
+  /* margin-bottom: 4px; */
+  min-width: 109px;
+}
+@media only screen and (min-width: 768px) {
+  .wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+
+    max-width: 388px;
+    margin-bottom: 40px;
+  }
+  .hero-users-box {
+    display: flex;
+    width: 229px;
+
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    row-gap: 12px;
+    /* margin-right: 40px; */
+  }
+}
+.hero-users-item {
+  cursor: pointer;
+}
+.hero-users-item:nth-child(1n + 2) {
+  margin-left: -6px;
+}
+.hero-users-item:nth-child(1) {
+  z-index: 3;
+}
+.hero-users-item:nth-child(2) {
+  z-index: 2;
+}
+.hero-users-item:nth-child(3) {
+  z-index: 1;
+}
+
+/* .hero-users-img {} */
+
+.hero-users-link {
+  display: block;
+  width: 67px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+}
+.hero-happy-students {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+.hero-icon-arrow {
+  fill: #fff;
+}
+.hero-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  /* border-radius: 100px; */
+  background: #bea69e;
+}
+.hero-reviews-box {
+  display: flex;
+  gap: 12px;
+}
+/* .hero-reviews {} */
+.hero-reviews-title {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+}
+.hero-reviews-value {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-reviews-title {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .hero-reviews-value {
+    line-height: 1.25;
+  }
+}
+
+.hero-main-img {
+  display: flex;
+  justify-content: center;
+}
+.hero-img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+/*
+@media only screen and (min-width: 768px) {
+  .hero-img {
+    width: 393px;
+    height: 434px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero-img {
+    width: 397px;
+    height: 520px;
+  }
+}
+*/
