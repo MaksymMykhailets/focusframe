@@ -3,8 +3,8 @@
         <a href="./index.html"><img src="../icons/logo.svg"  alt="Logo footer" width="127px" height="20px"/></a>
  
 <address class="address">
-    <p><a href="tel:+380665438912">UA: +38 066 543 8912</a></p>
-    <p>Ukraine, Kyiv</p>
+    <p class="text-address"><a href="tel:+380665438912">UA: +38 066 543 8912</a></p>
+    <p class="text-address">Ukraine, Kyiv</p>
 </address>
  
 <div class="social-links"> 
@@ -21,37 +21,28 @@
 </ul>
 </div>
 <div class="form-footer">
-    <form>
+    <form class="form-email " >
         <label for="email" class="label-email">
             <input
             class="inpute-footer"
             type="email"
             name="email"
             placeholder="Enter your email"
-            id="email"/>
+            id="email"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required/>
+           
         </label>
-        <button class="bt-footer" type="submit">
+        <button class="bt-footer" type="submit" value="Go">
             Go
         </button>
     </form>
 </div>
-  
-  <ul class="tex-list">
-    <li class="text-box">
-        Privacy Policy 
-    </li>
-    <li class="text-box">
-        Public Offering Agreement
-    </li>
-    </ul>
-    <ul class="tex-list-two"> 
-    <li class="text-box">
-       2023 Focus Frame
-    </li>
-    <li class="text-box">
-    © All rights reserved
-    </li>
-  </ul>
-
-    </div>
+  <div class="tex-box">
+<p class="text"> Privacy Policy</br> 
+Public Offering Agreement</p>
+<p class="text-two">2023 Focus Frame</br>
+© All rights reserved</p>
+</div>
+  </div>
+   
 </footer>

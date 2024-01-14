@@ -1,9 +1,13 @@
 .footer {
+    
     color: #FFF;
         font-family: DM Sans;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
+        background: url(../images/advertisement/net-mob.png) repeat;
+        
+        
          
 
 }
@@ -18,6 +22,11 @@
         margin-bottom: 40px;
          
 }
+.text-address{
+        line-height: 1.28em;
+        /* 128.571% */
+        text-transform: uppercase;
+}
 .social-links{
     display: inline-flex;
         align-items: flex-start;
@@ -30,9 +39,17 @@
     margin-bottom: 14px;
 }
 
+
 .form-footer{
     margin-bottom: 40px;
     white-space: nowrap;
+/*width: 100%; */
+}
+.form-email{
+    display: flex;
+    align-items: center;
+    gap:8px
+    
 }
 
 .label-email{
@@ -60,13 +77,31 @@ color: #121212;
         background: #1D1D1D;
    
 }
- .tex-list{
-     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
+.form-footer.inpute-footer[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        cursor: pointer;
+}
+.form-footer.inpute-footerinput[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+ .tex-box{
+  display: flex;
+   
+ }
+ .text{
+width: 147px;
+white-space: nowrap;
+ }
+ .text-two{
+width: 116px;
+white-space: nowrap;
+margin-left: auto;
  }
 
- .tex-list-two{
-display: flex;
+ .text.text-two{
+        font-size: 12px;
+        line-height: 1.33em;
+        /* 133.333% */
  }
