@@ -62,11 +62,13 @@
     padding-right: 50px;
   }
 }
-.arrow-btn {
-  position: absolute;
-  padding: 0;
-  top: 32px;
-  right: 32px;
+.icon-wrapper {
+  display: flex;
+}
+.icon-link {
+  margin-left: auto;
+}
+.arrow-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,8 +80,8 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.arrow-btn:hover,
-.arrow-btn:focus {
+.arrow-icon:hover,
+.arrow-icon:focus {
   fill: #fff;
   background-color: #bea69e;
 }
