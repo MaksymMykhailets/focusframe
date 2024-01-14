@@ -1,32 +1,71 @@
-.header-wrapper {
-  width: 1080px;
-  height: 60px;
-  flex-shrink: 0;
-}
-.header-navigation {
+.header-container {
   display: flex;
+  align-items: center;
+  position: relative;
+  width: 1080px;
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
 
 .header-nav {
+  display: inline-flex;
   width: 822px;
   height: 60px;
   flex-shrink: 0;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: #121212;
-  margin: 20px 20px 160px 0px;
 }
-
 .header-logo {
+  display: inline-flex;
+  align-items: center;
+  left: 50px;
+  width: 123px;
+  height: 16px;
+  position: relative;
 }
 .logo-style {
+  width: 123.12px;
+  height: 16.25px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  color: #fff;
 }
-.caption-position {
-  width: 822px;
-  height: 60px;
-  flex-shrink: 0;
+/* BURGER FOR TABLET AND MOBILE */
+.burger-button {
 }
-.header-caption {
+.burger-icon {
+}
+/* ICONS FOR MOBILE */
+.mobile-favicon {
+}
+.link-favicon {
+}
+.mobile-icon {
+}
+/* -------------------------- */
+.header-list {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 28px;
+  margin-left: 270px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  position: absolute;
+}
+.header-item {
+  /* display: inline-flex;
+  gap: 20px; */
+}
+/* mob,tab */
+
+.header-link {
   color: #fff;
   font-family: DM Sans;
   font-size: 14px;
@@ -34,20 +73,51 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  word-wrap: break-word;
+  transition: color 300ms ease-in-out;
 }
 
-.header-btn {
+.header-link:hover,
+.header-link:focus {
+  color: #bea69e;
 }
-/* Button */
-.header-style {
+
+/* button link to input */
+.header-singup-btn {
+  margin: 0px 0px 0px 750px;
+}
+/* mob btn */
+
+/* size btn tablet */
+/* @media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .header-button {
+    display: inline-flex;
+    padding: 16px 58px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #fff;
+  }
+} */
+.header-button {
   display: inline-flex;
-  padding: 16px 84px;
   justify-content: center;
   align-items: center;
   border-radius: 12px;
   background: #fff;
+  width: 238px;
+  height: 60px;
+  transition: background-color 300ms ease-in-out;
+
+  /* overflow: hidden; */
 }
-.button-input {
+
+.header-button:hover,
+.header-button:focus {
+  background: #1d1d1d;
+}
+
+.header-btn {
   color: #121212;
   font-family: DM Sans;
   font-size: 18px;
@@ -55,4 +125,12 @@
   font-weight: 700;
   line-height: 1.5;
   text-transform: uppercase;
+  word-wrap: break-word;
+  transition: color 300ms ease-in-out;
 }
+.header-btn:hover,
+.header-btn:focus {
+  color: #bea69e;
+}
+
+/* size btn desktop */

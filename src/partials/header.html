@@ -1,33 +1,69 @@
-<header class="container header-wrapper">
-  <div class="header-navigation">
+<header class="header">
+  <div class="header-container container">
     <nav class="header-nav">
-      <ul>
-        <li>
-          <a href="./index.html" class="header-logo"
-            ><img
-              class="logo-style"
-              src="./icons/logo.svg"
-              alt="Site logo"
-              width="124"
-              height="16"
-          /></a>
-        </li>
-      </ul>
-      <ul class="caption-position">
-        <li class="header-caption"><a href="#about us"></a>About us</li>
-        <li class="header-caption"><a href="#our courses"></a>Our courses</li>
-        <li class="header-caption"><a href="#our mentors"></a>Our mentors</li>
-        <li class="header-caption"><a href="#reviews"></a>Reviews</li>
-        <li class="header-caption"><a href="#contacts"></a>contacts</li>
-      </ul>
+      <a href="#" class="header-logo">
+        <img
+          class="logo-style"
+          src="./icons/logo.svg"
+          alt="Site logo"
+          width="124"
+          height="16"
+        />
+      </a>
 
-      <ul class="header-btn">
-        <li class="header-style">
-          <a class="button-input" href="#sign up" aria-label="sing up"
-            >Sign up</a
-          >
+      <!-- LOGO FAVICON MOB-->
+      <button type="button" class="mobile-favicon">
+        <a href="#abuot us" class="link-favicon">
+          <svg class="mobile-icon" width="16" height="16">
+            <use href="./icons/favicon-header.svg"></use>
+          </svg>
+        </a>
+      </button>
+      <!--  MOBSLE BURGER-->
+      <button type="button" class="burger-button">
+        <svg class="burger-icon" width="32" height="22">
+          <use href="./icons/nav.svg"></use>
+        </svg>
+      </button>
+      <!-- DESKTOP HEADER -->
+      <ul class="header-list">
+        <li class="header-item">
+          <a class="header-link" href="#about us">About us</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#our courses">Our courses</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#our mentors">Our mentors</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#reviews">Reviews</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#contacts">contacts</a>
         </li>
       </ul>
     </nav>
+    <ul class="header-singup-btn">
+      <li class="header-button">
+        <a class="header-btn" href="#sign up" aria-label="sing up">Sign up</a>
+      </li>
+    </ul>
   </div>
 </header>
+<!-- MOBILE MENU -->
+<div class="backdrop"></div>
+<div class="mobile-menu">
+  <button class="button-close" type="button">
+    <svg class="icon-close" width="32" height="32">
+      <use href="./icons/close.svg"></use>
+    </svg>
+  </button>
+  <ul>
+    <li><a href="" class="menu-mobile">About us</a></li>
+    <li><a href="" class="menu-mobile"></a>Our courses</li>
+    <li><a href="" class="menu-mobile"></a>Our mentors</li>
+    <li><a href="" class="menu-mobile"></a>Reviews</li>
+    <li><a href="" class="menu-mobile"></a></li>
+  </ul>
+</div>
