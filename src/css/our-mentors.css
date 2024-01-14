@@ -1,0 +1,122 @@
+.title-mentors {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -1.12px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .title-mentors {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+    margin-bottom: 50px;
+  }
+}
+
+.title-color {
+  color: #bea69e;
+}
+
+.list-mentor {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  width: 185px;
+  height: 240px;
+  /*background: var(
+    --avatar-user-square-brianna-ware-neutral-background,
+    url(<path-to-image>),
+    lightgray 50% / cover no-repeat,
+    #e0e0e0
+  );*/
+}
+
+@media only screen and (min-width: 768px) {
+  .list-mentor {
+    width: calc((100% - 100px * 1) / 2);
+
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .list-mentor {
+    width: calc((100% - 100px * 3) / 4);
+    width: 190px;
+    height: 250px;
+  }
+}
+.name-mentors {
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+@media only screen and (min-width: 768px) {
+  .name-mentors {
+    font-size: 28px;
+    line-height: 1.14;
+  }
+}
+
+.expierience {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: -0.24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .expierience {
+    font-size: 14px;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+  }
+}
+
+.info-mentors {
+  display: block;
+  text-align: center;
+}
+
+.list-mentors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .list-mentors {
+    gap: 93px 100px;
+    margin: 0 103px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .list-mentors {
+    gap: 100px;
+    flex-wrap: nowrap;
+  }
+}
+
+.our-mentor {
+  border-radius: 50%;
+}
+.list-mentors-wrapper {
+  justify-content: center;
+  display: flex;
+}
