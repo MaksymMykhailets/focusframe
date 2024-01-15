@@ -1,0 +1,103 @@
+@media only screen and (min-width: 768px) {
+  .courses-wrapper {
+    display: flex;
+  }
+}
+.our-courses .title {
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .our-courses .title {
+    margin-bottom: 0;
+  }
+}
+.our-courses .text {
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .our-courses .text {
+    width: 381px;
+    margin-left: auto;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .our-courses .text {
+    width: 405px;
+  }
+}
+.courses-list {
+  display: flex;
+  gap: 20px;
+}
+@media only screen and (max-width: 767.98px) {
+  .courses-list {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .courses-list {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .courses-list {
+    flex-wrap: nowrap;
+  }
+}
+.courses-item {
+  padding: 88px 28px 28px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+}
+@media only screen and (min-width: 768px) {
+  .courses-item {
+    width: 342px;
+    padding: 96px 45px 32px 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .courses-item {
+    width: 347px;
+    padding-right: 50px;
+  }
+}
+.icon-wrapper {
+  display: flex;
+}
+.icon-link {
+  margin-left: auto;
+}
+.arrow-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  fill: #ffffff66;
+  background-color: #1d1d1d;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.arrow-icon:hover,
+.arrow-icon:focus {
+  fill: #fff;
+  background-color: #bea69e;
+}
+.courses-item .title {
+  padding-bottom: 164px;
+}
+@media only screen and (min-width: 768px) {
+  .courses-item .title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    padding-bottom: 180px;
+  }
+}
+.courses-item .text {
+  width: 100%;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.5);
+}
