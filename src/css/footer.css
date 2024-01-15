@@ -1,0 +1,82 @@
+.footer {
+        background: url(./images/advertisement/net-mob.png) repeat;
+}
+.address{
+        display: inline-flex;
+        height: 46px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-shrink: 0;
+        margin-top: 16px;  
+        margin-bottom: 40px;  
+}
+.text-address{
+        line-height: 1.28;
+        text-transform: uppercase;
+}
+.social-links{
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 40px;
+        margin-bottom: 75px;
+}
+.list-footer{
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+.form-footer{
+    margin-bottom: 40px;
+    white-space: nowrap;
+}
+.form-email{
+    display: flex;
+    align-items: center;
+    gap:8px
+}
+.label-email{
+    color: #121212;
+    font-size: 16px;
+    line-height: 1.25;
+}
+.inpute-footer{
+    width: 256px;
+    height: 60px ;
+    border-radius: 12px;
+    padding-left: 18px;
+}
+
+.bt-footer{
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2; 
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+   
+}
+.form-footer .input-footer[type="submit"] {
+ background-color: #4caf50;
+ color: #fff;
+ cursor: pointer;
+}
+.form-footer .inpute-footerinput[type="submit"]:hover {
+ background-color: #45a049;
+}
+ .text-box{
+  display: flex;
+ }
+ .text{
+  width: 147px;
+  white-space: nowrap;
+ }
+ .text-two{
+  width: 116px;
+  white-space: nowrap;
+  margin-left: auto;
+ }
+
+ .text.text-two{
+  font-size: 12px;
+  line-height: 1.33;
+ }
