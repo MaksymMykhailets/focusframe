@@ -167,11 +167,18 @@
 }
 .hero-happy-students {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
   gap: 4px;
 }
+@media only screen and (min-width: 768px) {
+  .hero-happy-students {
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
 .hero-happy-students:hover .hero-icon-arrow,
 .hero-happy-students:focus .hero-icon-arrow {
   rotate: 450deg;
