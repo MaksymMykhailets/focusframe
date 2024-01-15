@@ -1,18 +1,28 @@
+@media only screen and (max-width: 767.98px) {
+  .courses-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .courses-wrapper {
     display: flex;
+    margin-bottom: 50px;
   }
 }
-.our-courses .title {
-  margin-bottom: 20px;
+.courses-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
 }
 @media only screen and (min-width: 768px) {
-  .our-courses .title {
-    margin-bottom: 0;
+  .courses-title {
+    font-size: 48px;
+    line-height: 1.12;
   }
-}
-.our-courses .text {
-  margin-bottom: 40px;
 }
 @media only screen and (min-width: 768px) {
   .our-courses .text {
@@ -63,9 +73,18 @@
 }
 .icon-wrapper {
   display: flex;
+  margin-bottom: 28px;
+}
+@media only screen and (min-width: 768px) {
+  .icon-wrapper {
+    margin-bottom: 32px;
+  }
 }
 .number-span {
-  color: #ffffff66;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
 }
 .icon-courses {
   margin-left: auto;
@@ -82,22 +101,22 @@
   background-color: #bea69e;
   border-color: #bea69e;
 }
-.courses-item .title {
-  padding-top: 28px;
-  padding-bottom: 164px;
-  margin-bottom: 0;
+.phrase-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 164px;
 }
 @media only screen and (min-width: 768px) {
-  .courses-item .title {
-    padding-top: 32px;
-    padding-bottom: 180px;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.14;
+  .phrase-wrapper {
+    gap: 180px;
   }
 }
-.courses-item .text {
+.phrase-wrapper .courses-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+}
+.phrase-wrapper .courses-text {
   width: 100%;
-  margin-bottom: 0;
   color: rgba(255, 255, 255, 0.5);
 }
