@@ -1,0 +1,250 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 1080px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.header-nav {
+  display: inline-flex;
+  width: 822px;
+  height: 60px;
+  flex-shrink: 0;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #121212;
+}
+.header-logo {
+  display: inline-flex;
+  align-items: center;
+  left: 50px;
+  width: 123px;
+  height: 16px;
+  position: relative;
+}
+.logo-style {
+  width: 123.12px;
+  height: 16.25px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  color: #fff;
+}
+/* ICONS FOR MOBILE */
+.mobile-favicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #1d1d1d;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* .link-favicon {
+} */
+.mobile-icon {
+  fill: #bea69e;
+  fill-opacity: 0.4;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-icon:hover.link-favicon,
+.mobile-icon:focus.link-favicon {
+  fill: #bea69e;
+}
+
+/* BURGER FOR TABLET AND MOBILE */
+.burger-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+}
+.burger-icon {
+  fill: #ffffff;
+}
+/* -------------------------- */
+.header-list {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 28px;
+  margin-left: 270px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  position: absolute;
+}
+/* .header-item {
+  display: inline-flex;
+  gap: 20px;
+} */
+/* mob,tab */
+
+.header-link {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #bea69e;
+}
+
+/* mob btn */
+
+/* size btn tablet */
+/* @media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .header-button {
+    display: inline-flex;
+    padding: 16px 58px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #fff;
+  }
+} */
+/* button link to input dESKTOP----- */
+.header-singup-btn {
+  margin: 0px 0px 0px 750px;
+}
+.header-singup-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #fff;
+  width: 238px;
+  height: 60px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* overflow: hidden; */
+}
+
+.header-button:hover,
+.header-button:focus {
+  background: #1d1d1d;
+}
+
+.header-btn {
+  color: #121212;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  transition: color 300ms ease-in-out;
+}
+.header-btn:hover,
+.header-btn:focus {
+  color: #bea69e;
+}
+
+/* MOBILE MENU---------- */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(18, 18, 18, 0.4);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
+}
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-width: 218px;
+  min-height: 812px;
+  padding: 180px 101px 463px 20px;
+  width: 82%;
+
+  background-color: #bea69e;
+  transform: translateX(-100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu.is-open {
+  transform: translateX(0);
+}
+/* TABLET MOB-MENU-- */
+@media only screen and (min-width: 375px) and (max-width: 767.98px) {
+  .mobile-menu {
+  }
+}
+.button-close {
+  position: absolute;
+  padding: 0;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  stroke: #121212;
+  width: 32px;
+  height: 32px;
+}
+/* .icon-close {
+  stroke: #121212;
+  width: 32px;
+  height: 32px;
+} */
+.menu-mob-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+
+  margin-bottom: auto;
+}
+.menu-mobile-link {
+  color: #121212;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.menu-mobile-link.bold {
+  font-weight: 700;
+}
+
+.mob-menu-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 329px;
+}
