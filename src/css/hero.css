@@ -1,5 +1,8 @@
 .hero {
   position: relative;
+  top: 0;
+  left: 0;
+
   padding: 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -21,6 +24,8 @@
 @media only screen and (min-width: 768px) {
   .hero {
     padding-top: 120px;
+    padding-left: 32px;
+    padding-right: 32px;
     padding-bottom: 100px;
     background-image: url(../images/advertisement/net-tab.png);
   }
@@ -33,6 +38,8 @@
 @media only screen and (min-width: 1280px) {
   .hero {
     padding-top: 160px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 150px;
     background-image: url(../images/advertisement/net-desk.png);
   }
@@ -57,6 +64,7 @@
 }
 @media only screen and (min-width: 1280px) {
   .hero-container {
+    width: 1080px;
     flex-direction: row;
     flex-wrap: nowrap;
     padding-top: 80px;
