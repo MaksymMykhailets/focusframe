@@ -26,9 +26,11 @@
         <symbol id="icon-arrow-hero" viewBox="0 0 58 32">
             <path d="M40 2.144 57.6 16 40 29.856V18.4H0v-4.8h40V2.144z" />
         </symbol>
-        <symbol id="icon-arrow-our-courses" viewBox="0 0 34 32">
-            <path
-                d="m16.127 6.678 11.784-.368-2.408 11.541-3.876-4.619L5.5 26.764l-1.624-1.935 16.127-13.532-3.876-4.619z" />
+        <symbol id="icon-arrow-our-courses" viewBox="0 0 32 32">
+            <path fill="#777" style="stroke: var(--color1, #777)" stroke-linejoin="round" stroke-linecap="round"
+                stroke-miterlimit="4" stroke-width="2.0800" d="M8 24l16-16"></path>
+            <path fill="#777" style="stroke: var(--color1, #777)" stroke-linejoin="round" stroke-linecap="round"
+                stroke-miterlimit="4" stroke-width="2.0800" d="M13.333 8h10.667v10.667"></path>
         </symbol>
         <symbol id="icon-star-reviews" viewBox="0 0 32 32">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
