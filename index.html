@@ -16,10 +16,104 @@
       rel="stylesheet"
     />
     
-    <link rel="stylesheet" href="/team-project-group-8/assets/index-232afd52.css">
+    <link rel="stylesheet" href="/team-project-group-8/assets/index-9818b823.css">
   </head>
   <body>
-    <header class="header"></header>
+    <header class="header">
+  <div class="header-container container">
+    <nav class="header-nav">
+      <a href="#" class="header-logo">
+        <img
+          class="logo-style"
+          src="/team-project-group-8/assets/logo-a7d70f6d.svg"
+          alt="Site logo"
+          width="124"
+          height="16"
+        />
+      </a>
+
+      <!-- LOGO FAVICON MOB-->
+      <button type="button" class="mobile-favicon">
+        <a href="#abuot us" class="link-favicon">
+          <svg class="mobile-icon" width="16" height="16">
+            <use href="/team-project-group-8/assets/favicon-header-0b4d6d4b.svg"></use>
+          </svg>
+        </a>
+      </button>
+      <!--  MOBSLE BURGER-->
+      <button type="button" class="burger-button">
+        <svg class="burger-icon" width="32" height="22">
+          <use href="/team-project-group-8/assets/nav-586a7078.svg"></use>
+        </svg>
+      </button>
+      <!-- DESKTOP HEADER -->
+      <ul class="header-list">
+        <li class="header-item">
+          <a class="header-link" href="#about us">About us</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#our courses">Our courses</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#our mentors">Our mentors</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#reviews">Reviews</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#contacts">contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="header-singup-btn">
+      <li class="header-singup-button">
+        <a class="header-btn" href="#sign up" aria-label="sing up">Sign up</a>
+      </li>
+    </ul>
+  </div>
+</header>
+<!-- MOBILE MENU -->
+<div class="backdrop ">
+  <div class="mobile-menu ">
+    <button class="button-close" type="button" aria-label="modal cloce button">
+      <svg class="icon-close" width="32" height="32">
+        <use href="/team-project-group-8/assets/close-49400e76.svg"></use>
+      </svg>
+    </button>
+    <ul class="menu-mob-wrapper">
+      <li><a href="#about us" class="menu-mobile-link bold">About us</a></li>
+      <li><a href="#our courses" class="menu-mobile-link"></a>Our courses</li>
+      <li><a href="#our mentors" class="menu-mobile-link"></a>Our mentors</li>
+      <li><a href="#reviews" class="menu-mobile-link"></a>Reviews</li>
+      <li><a href="#contacts" class="menu-mobile-link"></a>contacts</li>
+    </ul>
+    
+    
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./images/header-menu/menu-photo-tab.jpg    1x,
+          ./images/header-menu/menu-photo-tab@2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 320px)"
+        srcset="
+          ./images/header-menu/menu-photo-mob.jpg    1x,
+          ./images/header-menu/menu-photo-mob@2x.png 2x
+        "
+      />
+      <img
+        class="mob-menu-img"
+        src="./images/header-menu/menu-photo-mob.jpg "
+        alt="Camera menu"
+        width="329"
+        loading="lazy"
+      />
+    </picture>
+    
+  </div>
+</div>
 
     <section id="hero" class="hero section">
   <div class="container hero-container">
