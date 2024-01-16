@@ -1,0 +1,19 @@
+.sign-up-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .sign-up-title {
+        margin-bottom: 50px;
+        font-size: 48px;
+        line-height: 1.13;
+    }
+}
+
+.span {
+    color: #bea69e;
+}
