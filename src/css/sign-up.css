@@ -113,3 +113,39 @@
   text-decoration-line: underline;
 }
 
+.pictures {
+  display: none;
+}
+
+@media only screen and (min-width: 1280px) {
+  .pictures {
+    display: inline-flex;
+    gap: 20px
+  } 
+}
+
+.pictures {
+
+}
+
+.lens {
+  width: 190px;
+  height: 288px;
+  flex-shrink: 0;
+
+  justify-content: center;
+
+  border-radius: 1000px;
+  background: #BEA69E;
+  
+  box-shadow: -35.562px 17.781px 25.44px 0px rgba(0, 0, 0, 0.26);
+}
+
+.camera {
+  width: 350px;
+  height: 540px;
+  flex-shrink: 0;
+
+  border-radius: 1000px;
+  background: #1D1D1D;
+}
