@@ -28,12 +28,10 @@
 @media only screen and (min-width: 768px) {
   .list-mentors {
     gap: 93px 100px;
-    margin: 0 103px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .list-mentors {
-    gap: 100px;
     flex-wrap: nowrap;
   }
 }
