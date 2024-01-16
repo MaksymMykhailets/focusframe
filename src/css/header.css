@@ -165,29 +165,39 @@
   height: 100%;
 } */
 .header {
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+.wrapper-site {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-wrapper {
+  margin-right: 20px;
+  padding: 0 50px;
   display: flex;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: #121212;
-  padding: 9px 20px;
+  align-items: center;
 }
 @media only screen and (min-width: 768px) and (max-width: 1279.98px) {
   .header-wrapper {
     padding: 16px 20px;
+    flex-grow: 1;
+    justify-content: space-between;
   }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (max-width: 375px) {
   .header-wrapper {
-    padding: 22px 50px;
+    padding: 15px 20px;
+    flex-grow: 1;
+    justify-content: space-between;
   }
 }
 .header-icon {
-  align-self: center;
   fill: #ffffff;
-  margin-right: auto;
 }
 @media only screen and (min-width: 1280px) {
   .header-icon {
@@ -208,7 +218,8 @@
   align-items: center;
 }
 .header-link {
-  display: flex;
+  white-space: nowrap;
+  padding: 21px 0;
   font-size: 14px;
   text-transform: uppercase;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -271,11 +282,11 @@
     height: 28px;
   }
 }
-.sign-up-header {
+.header-sign-up-button {
   display: none;
 }
 @media only screen and (min-width: 768px) {
-  .sign-up-header {
+  .header-sign-up-button {
     display: flex;
     border-radius: 12px;
     background-color: #fff;
@@ -291,7 +302,7 @@
   }
 }
 @media only screen and (min-width: 1280px) {
-  .sign-up-header {
+  .header-sign-up-button {
     width: 238px;
   }
 }
