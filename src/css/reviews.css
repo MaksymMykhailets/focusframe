@@ -29,9 +29,6 @@
   flex-wrap: wrap;
   /* margin-bottom: 80px; */
 }
-.reviews {
-  padding: 80px;
-}
 .reviews-section-item {
   width: 100%;
   height: auto;
@@ -90,9 +87,6 @@
   /* .reviews-section-list {
     margin-bottom: 100px;
   } */
-  .reviews {
-    padding: 100px;
-  }
   .reviews-section-item {
     width: 640px;
     height: 196px;
@@ -115,9 +109,6 @@
   /* .reviews-section-list {
     margin-bottom: 150px;
   } */
-  .reviews {
-    padding: 150px;
-  }
   .display-none {
     display: inline-block;
   }
