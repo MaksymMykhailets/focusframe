@@ -1,4 +1,9 @@
 .footer {
+  color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
   background-repeat: no-repeat;
   background-image: url(../images/footer/net-mob-footer.png);
 }
@@ -12,8 +17,11 @@
     background-image: url(../images/footer/net-desk-footer.png);
   }
 }
+.footer-icon{
+  fill:#fff
+}
 .address {
-  display: inline-flex;
+  display:flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
@@ -27,7 +35,7 @@
   text-transform: uppercase;
 }
 .social-links {
-  display: inline-flex;
+  display:flex;
   align-items: flex-start;
   gap: 40px;
   margin-bottom: 75px;
@@ -49,13 +57,20 @@
   font-size: 16px;
   line-height: 1.25;
 }
-.inpute-footer {
-  width: 256px;
+.input-footer {
+  width: 267px;
   height: 60px;
   border-radius: 12px;
-  padding-left: 18px;
+    background: #FFF;
+    border: 1px solid #fff;
+    padding-left: 18px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #121212;
+      font-size: 16px;
+      line-height: 2;
 }
 .bt-footer {
+  background: #1D1D1D;
   text-align: center;
   font-size: 20px;
   line-height: 1.2;
@@ -68,13 +83,13 @@
   color: #fff;
   cursor: pointer;
 }
-.form-footer .inpute-footerinput[type='submit']:hover {
+.form-footer .input-footerinput[type='submit']:hover {
   background-color: #45a049;
 }
 .text-box {
   display: flex;
 }
-.footer .text-two {
+.footer.text-two {
   margin-left: auto;
 }
 .text .text-two {
