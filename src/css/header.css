@@ -271,11 +271,11 @@
     height: 28px;
   }
 }
-.sign-up {
+.sign-up-header {
   display: none;
 }
 @media only screen and (min-width: 768px) {
-  .sign-up {
+  .sign-up-header {
     display: flex;
     border-radius: 12px;
     background-color: #fff;
@@ -291,7 +291,7 @@
   }
 }
 @media only screen and (min-width: 1280px) {
-  .sign-up {
+  .sign-up-header {
     width: 238px;
   }
 }

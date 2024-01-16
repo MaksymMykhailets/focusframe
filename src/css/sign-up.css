@@ -1,44 +1,40 @@
 .sign-up-title {
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: -0.04em;
-    margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-    .sign-up-title {
-        margin-bottom: 50px;
-        font-size: 48px;
-        line-height: 1.13;
-    }
+  .sign-up-title {
+    margin-bottom: 50px;
+    font-size: 48px;
+    line-height: 1.13;
+  }
 }
 
-.span {
-    color: #bea69e;
-}
-
-.text{
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: -0.28px;
+.sign-up-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
 }
 
 @media only screen and (min-width: 768px) {
-    .text {
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: -0.32px;
-    }
+  .sign-up-text {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+  }
 }
 
-.form-wrapper{
-    flex-direction: column;
+.form-wrapper {
+  flex-direction: column;
 }
 
-.form-input{
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
+.form-input {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
