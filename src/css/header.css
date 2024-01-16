@@ -1,127 +1,4 @@
-header {
-  /* position: absolute; */
-  display: flex;
-  padding-top: 20px;
-  background-color: #121212;
-}
-.header-container {
-  display: flex;
-  gap: 20px;
-}
-.header-nav {
-  display: flex;
-  flex-grow: 1;
-  gap: 28px;
-  align-items: center;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.header-logo {
-  display: flex;
-  align-items: center;
-  margin-left: 50px;
-  width: 123px;
-  height: 16px;
-}
-.logo-style {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  color: #fff;
-}
-@media only screen and (min-width: 768px) {
-  .logo-style {
-    padding-top: 22px;
-    padding-bottom: 22px;
-  }
-}
-/* ICONS FOR MOBILE */
-.mobile-favicon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: #1d1d1d;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.mobile-icon {
-  fill: #bea69e;
-  fill-opacity: 0.4;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.mobile-icon:hover.link-favicon,
-.mobile-icon:focus.link-favicon {
-  fill: #bea69e;
-}
-
-@media only screen and (min-width: 768px) {
-  .mobile-favicon {
-    display: none;
-  }
-}
-
-/* BURGER FOR MOBILE AND TABLET-- */
-.burger-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  background-color: transparent;
-  margin-left: auto;
-}
-.burger-icon {
-  width: 32px;
-  height: 22px;
-  fill: #ffffff;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 767.98px) {
-  .burger-icon {
-    width: 40px;
-    height: 28px;
-    margin-right: 14px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .burger-icon {
-    display: none;
-  }
-}
-
-/* -------------------------- */
-.header-list {
-  display: flex;
-  margin-right: 50px;
-  gap: 28px;
-}
-@media only screen and (min-width: 320px) and (max-width: 1279.98px) {
-  .header-list {
-    display: none;
-  }
-}
-.header-item {
-  display: flex;
-  align-items: center;
-}
-/* mob,tab */
-
-.header-link {
-  display: flex;
-  font-size: 14px;
-  text-transform: uppercase;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-link:hover,
-.header-link:focus {
-  color: #bea69e;
-}
-
-/* mob btn to singup */
+/* 
 @media only screen and (min-width: 320px) and (max-width: 767.98px) {
   .header-singup-button {
     display: none;
@@ -134,7 +11,7 @@ header {
   }
 }
 
-/* BUTTON TO THE SING UP TABLET */
+
 @media only screen and (min-width: 768px) and (max-width: 1279.98px) {
   .header-singup-button {
     display: flex;
@@ -168,7 +45,7 @@ header {
 .header-btn:focus {
   color: #bea69e;
 }
-/* BUTTON TO THE INPUT  dESKTOP */
+
 
 @media only screen and (min-width: 1280px) and (max-width: 1439.98px) {
   .header-singup-button {
@@ -177,7 +54,7 @@ header {
   }
 }
 
-/* MOBILE MENU---------- */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -216,7 +93,6 @@ header {
 .mobile-menu.active {
   transform: translateX(0);
 }
-/* TABLET MOB-MENU-- */
 @media only screen and (min-width: 375px) and (max-width: 767.98px) {
   .mobile-menu {
     padding: 232px 347px 590px 64px;
@@ -241,7 +117,6 @@ header {
   background-color: transparent;
   width: 32px;
   height: 32px;
-  /* stroke: #121212; */
 }
 @media only screen and (min-width: 375px) and (max-width: 767.98px) {
   .button-close {
@@ -260,7 +135,6 @@ header {
   align-items: center;
   justify-content: center;
   border: none;
-  /* background-color: transparent; */
 }
 .menu-mob-wrapper {
   display: inline-flex;
@@ -289,4 +163,135 @@ header {
   justify-content: center;
   width: 100%;
   height: 100%;
+} */
+.header {
+  margin-top: 20px;
+}
+.header-wrapper {
+  display: flex;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #121212;
+  padding: 9px 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .header-wrapper {
+    padding: 16px 20px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .header-wrapper {
+    padding: 22px 50px;
+  }
+}
+.header-icon {
+  align-self: center;
+  fill: #ffffff;
+  margin-right: auto;
+}
+@media only screen and (min-width: 1280px) {
+  .header-icon {
+    margin-right: 96px;
+  }
+}
+.header-list {
+  display: flex;
+  gap: 28px;
+}
+@media only screen and (min-width: 320px) and (max-width: 1279.98px) {
+  .header-list {
+    display: none;
+  }
+}
+.header-item {
+  display: flex;
+  align-items: center;
+}
+.header-link {
+  display: flex;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-link:hover,
+.header-link:focus {
+  color: #bea69e;
+}
+.nav-wrapper {
+  display: flex;
+  gap: 16px;
+}
+@media only screen and (min-width: 1280px) {
+  .nav-wrapper {
+    display: none;
+  }
+}
+.mobile-favicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #1d1d1d;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media only screen and (min-width: 768px) {
+  .mobile-favicon {
+    display: none;
+  }
+}
+.mobile-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #bea69e66;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-icon:hover,
+.mobile-icon:hover {
+  fill: #bea69e;
+}
+.burger-button {
+  display: flex;
+}
+.burger-icon:hover,
+.burger-icon:focus {
+  stroke: #bea69e;
+}
+.burger-icon {
+  display: flex;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  stroke: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  .burger-icon {
+    width: 40px;
+    height: 28px;
+  }
+}
+.sign-up {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .sign-up {
+    display: flex;
+    border-radius: 12px;
+    background-color: #fff;
+    width: 186px;
+    height: 60px;
+    color: #121212;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .sign-up {
+    width: 238px;
+  }
 }

@@ -1,57 +1,4 @@
-<header class="header">
-  <div class=" header-container container">
-    <nav class="header-nav">
-      <a href="#" class="header-logo">
-        <img
-          class="logo-style"
-          src="./icons/logo.svg"
-          alt="Site logo"
-          width="124"
-          height="16"
-        />
-      </a>
-      <!-- LOGO FAVICON MOB-->
-      <button type="button" class="mobile-favicon">
-        <a href="#about us" class="link-favicon">
-          <svg class="mobile-icon" width="16" height="16">
-            <use href="./icons/favicon-header.svg"></use>
-          </svg>
-        </a>
-      </button>
-      <!--  MOBILE BURGER-->
-      <button type="button" class="burger-button">
-        <svg class="burger-icon" width="32" height="22">
-          <use href="./icons/nav.svg"></use>
-        </svg>
-      </button>
-      <!-- DESKTOP HEADER -->
-      <ul class="header-list">
-        <li class="header-item">
-          <a class="header-link" href="#about us">About us</a>
-        </li>
-        <li class="header-item">
-          <a class="header-link" href="#our courses">Our courses</a>
-        </li>
-        <li class="header-item">
-          <a class="header-link" href="#our mentors">Our mentors</a>
-        </li>
-        <li class="header-item">
-          <a class="header-link" href="#reviews">Reviews</a>
-        </li>
-        <li class="header-item">
-          <a class="header-link" href="#contacts">contacts</a>
-        </li>
-      </ul>
-    </nav>
-    
-    <ul class="header-singup-btn">
-      <li class="header-singup-button">
-        <a class="header-btn" href="#sign up" aria-label="sing up">Sign up</a>
-      </li>
-    </ul>
-  </div>
-</header>
-<!-- MOBILE MENU -->
+<!-- 
 <div class="backdrop">
   <div class="mobile-menu">
     <button class="button-close" type="button" aria-label="modal cloce button">
@@ -66,7 +13,7 @@
       <li><a href="#reviews" class="menu-mobile-link-normal"></a>Reviews</li>
       <li><a href="#contacts" class="menu-mobile-link-normal"></a>contacts</li>
     </ul>
-
+<picture>
       <source
         media="(min-width: 768px)"
         srcset="
@@ -91,3 +38,46 @@
     </picture>
   </div>
 </div>
+-->
+
+<header class="header container">
+  <div class="header-wrapper">
+    <svg class="header-icon" width="127" height="20">
+      <use href="./icons/icons-sprite.svg#icon-logo"></use>
+    </svg>
+    <ul class="header-list">
+      <li class="header-item">
+        <a class="header-link" href="#about us">About us</a>
+      </li>
+      <li class="header-item">
+        <a class="header-link" href="#our courses">Our courses</a>
+      </li>
+      <li class="header-item">
+        <a class="header-link" href="#our mentors">Our mentors</a>
+      </li>
+      <li class="header-item">
+        <a class="header-link" href="#reviews">Reviews</a>
+      </li>
+      <li class="header-item">
+        <a class="header-link" href="#contacts">contacts</a>
+      </li>
+    </ul>
+    <div class="nav-wrapper">
+      <button class="mobile-favicon" type="button">
+        <a class="link-favicon" href="#about us">
+          <svg class="mobile-icon" width="16" height="16">
+            <use href="./icons/icons-sprite.svg#icon-favicon-header"></use>
+          </svg>
+        </a>
+      </button>
+      <button class="burger-button" type="button">
+        <svg class="burger-icon" width="32" height="22">
+          <use href="./icons/icons-sprite.svg#icon-nav"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="sign-up">
+    <a class="header-sign-up" href="#sign-up" aria-label="sign up"> Sign up </a>
+  </div>
+</header>
