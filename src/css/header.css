@@ -173,8 +173,9 @@
   pointer-events: initial;
 }
 .mobile-menu.active {
+  background-position: bottom;
   position: fixed;
-  width: 61%;
+  width: 58%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -188,17 +189,21 @@
 .bg-photo-menu {
   display: flex;
   flex-direction: column;
-  width: 329px;
+  width: 339px;
   min-height: 218px;
   background-image: url(../images/header-menu/menu-photo-mob.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+}
+@media only screen and (min-width: 768px) {
+  .bg-photo-menu {
+    background-size: contain;
+  }
 }
 @media only screen and (min-width: 320px) {
-  .bg-photo-menu {
+  .mobile-menu.active {
     background-image: url(../images/header-menu/menu-photo-mob.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: bottom;
   }
 }
 @media only screen and (min-width: 320px) and (min-resolution: 192dpi) {
@@ -209,11 +214,16 @@
 @media only screen and (min-width: 768px) {
   .bg-photo-menu {
     background-image: url(../images/header-menu/menu-photo-tab.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .bg-photo-menu {
     background-image: url(../images/header-menu/menu-photo-tab@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
   }
 }
 .mobile-menu.active {
@@ -263,7 +273,6 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
-  margin-bottom: 133px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1279.98px) {
   .menu-mob-wrapper {
