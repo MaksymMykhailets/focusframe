@@ -1,3 +1,7 @@
+textarea {
+  resize: none;
+}
+
 .sign-up-wrap {
   display: flex;
 }
@@ -139,10 +143,14 @@
 }
 
 .lens {
-  margin-top: auto;
-  width: 180px;
+  width: 190px;
   height: 288px;
-  flex-shrink: 0;
+  padding-right: 10px;
+  margin-top: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   border-radius: 1000px;
   background: #BEA69E;
@@ -155,13 +163,15 @@
 .camera {
   width: 340px;
   height: 540px;
-  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   border-radius: 1000px;
   background: #1D1D1D;
 }
 
 .camera-pic {
-  padding-left: 15%;
-  padding-top: 150px;
+
 }
