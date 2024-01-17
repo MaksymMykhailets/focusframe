@@ -9,6 +9,7 @@
       <form class="form">
         <div class="form-wrapper">
           <input
+            required
             class="form-input"
             type="text"
             id="user-name"
@@ -16,8 +17,10 @@
             placeholder="Enter your name"
           />
         </div>
-        <div class="form-wrapper">
+        <div class="form-email">
           <input
+            required
+            checked
             class="form-input"
             type="text"
             id="email"
@@ -27,6 +30,7 @@
         </div>
         <div class="form-wrapper">
           <textarea
+          required
             class="form-input message"
             name="message"
             id="user-message"
@@ -34,11 +38,11 @@
           ></textarea>
         </div>
         <button type="submit" class="sign-up-btn">Send</button>
-        <label for="user-privacy" class="form-agreement"
+        <p for="user-privacy" class="form-agreement"
           >By clicking on “Send” button, you agree to our
           <a href="" class="text-pp">Privacy Policy</a>, and allow Promodo to
           use this information for marketing purposes.
-        </label>
+        </p>
       </form>
     </div>
     <div class="pictures">
