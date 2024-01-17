@@ -62,6 +62,7 @@ textarea {
   border: 1px solid rgba(255, 255, 255, 0.2);
   background-color: transparent;
   padding-left: 18px;
+  color: #ffffff;
 }
 
 #user-message {
