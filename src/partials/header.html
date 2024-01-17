@@ -1,45 +1,3 @@
-<!-- 
-<div class="backdrop">
-  <div class="mobile-menu">
-    <button class="button-close" type="button" aria-label="modal cloce button">
-      <svg class="icon-close-btn-menu" width="40" height="40">
-        <use href="./icons/close.svg"></use>
-      </svg>
-    </button>
-    <ul class="menu-mob-wrapper">
-      <li><a href="#about us" class="menu-mobile-link bold">About us</a></li>
-      <li><a href="#our courses" class="menu-mobile-link-normal"></a>Our courses</li>
-      <li><a href="#our mentors" class="menu-mobile-link-normal"></a>Our mentors</li>
-      <li><a href="#reviews" class="menu-mobile-link-normal"></a>Reviews</li>
-      <li><a href="#contacts" class="menu-mobile-link-normal"></a>contacts</li>
-    </ul>
-<picture>
-      <source
-        media="(min-width: 768px)"
-        srcset="
-          ./images/header-menu/menu-photo-tab.jpg    1x,
-          ./images/header-menu/menu-photo-tab@2x.png 2x
-        "
-      />
-      <source
-        media="(min-width: 320px)"
-        srcset="
-          ./images/header-menu/menu-photo-mob.jpg    1x,
-          ./images/header-menu/menu-photo-mob@2x.png 2x
-        "
-      />
-      <img
-        class="mob-menu-img"
-        src="./images/header-menu/menu-photo-mob.jpg "
-        alt="Camera menu"
-        width="329"
-        loading="lazy"
-      />
-    </picture>
-  </div>
-</div>
--->
-
 <header class="header">
   <div class="wrapper-site container">
     <nav class="header-wrapper">
@@ -86,3 +44,47 @@
     </a>
   </div>
 </header>
+
+<div class="backdrop is-open">
+  <div class="mobile-menu-for-mobile is-open">
+    <button class="button-close" type="button" aria-label="modal cloce button">
+      <svg class="icon-close-btn-menu" width="32" height="32">
+        <use href="./icons/close.svg"></use>
+      </svg>
+    </button>
+    <ul class="menu-mob-wrapper">
+      <li><a href="#about us" class="menu-mobile-link bold">About us</a></li>
+      <li>
+        <a href="#our courses" class="menu-mobile-link-normal"></a>Our courses
+      </li>
+      <li>
+        <a href="#our mentors" class="menu-mobile-link-normal"></a>Our mentors
+      </li>
+      <li><a href="#reviews" class="menu-mobile-link-normal"></a>Reviews</li>
+      <li><a href="#contacts" class="menu-mobile-link-normal"></a>contacts</li>
+    </ul>
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./images/header-menu/menu-photo-tab.jpg    1x,
+          ./images/header-menu/menu-photo-tab@2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 320px)"
+        srcset="
+          ./images/header-menu/menu-photo-mob.jpg    1x,
+          ./images/header-menu/menu-photo-mob@2x.png 2x
+        "
+      />
+      <img
+        class="mob-menu-for-img"
+        src="./images/header-menu/menu-photo-mob.jpg "
+        alt="Camera menu"
+        width="329"
+        loading="lazy"
+      />
+    </picture>
+  </div>
+</div>
