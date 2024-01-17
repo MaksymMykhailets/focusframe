@@ -1,66 +1,67 @@
-<header class="header">
-  <div class="wrapper-site container">
-    <nav class="header-wrapper">
-      <a class="header-icon" href="./index.html"
-        ><svg width="127" height="20">
-          <use href="./icons/icons-sprite.svg#icon-logo"></use>
+<header class="container header-container">
+  <nav class="nav-header">
+    <a class="header-logo" href="./index.html">
+      <svg class="header-logo-icon" width="123" height="16">
+        <use href="./icons/icons-sprite.svg#icon-logo"></use>
+      </svg>
+    </a>
+    <ul class="header-menu">
+      <li class="header-menu-item">
+        <a class="header-link" href="#about-us">About us</a>
+      </li>
+      <li class="header-menu-item">
+        <a class="header-link" href="#our-courses">Our courses</a>
+      </li>
+      <li class="header-menu-item">
+        <a class="header-link" href="#our-mentors">Our mentors</a>
+      </li>
+      <li class="header-menu-item">
+        <a class="header-link" href="#reviews">Reviews</a>
+      </li>
+      <li class="header-menu-item">
+        <a class="header-link" href="#contacts">Contacts</a>
+      </li>
+    </ul>
+    <div class="header-mob-btn">
+      <a href="#sign-up" class="header-mobile-btn-link" aria-label="Sign up">
+        <svg class="header-mobile-btn-icon" width="16" height="16">
+          <use href="./icons/icons-sprite.svg#icon-favicon-header"></use>
         </svg>
       </a>
-      <ul class="header-list">
-        <li class="header-item">
-          <a class="header-link" href="#about-us">About us</a>
-        </li>
-        <li class="header-item">
-          <a class="header-link" href="#our-courses">Our courses</a>
-        </li>
-        <li class="header-item">
-          <a class="header-link" href="#our-mentors">Our mentors</a>
-        </li>
-        <li class="header-item">
-          <a class="header-link" href="#reviews">Reviews</a>
-        </li>
-        <li class="header-item">
-          <a class="header-link" href="#contacts">contacts</a>
-        </li>
-      </ul>
-
-      <div class="nav-wrapper">
-        <button class="mobile-favicon" type="button">
-          <svg class="mobile-icon" width="16" height="16">
-            <use href="./icons/icons-sprite.svg#icon-favicon-header"></use>
-          </svg>
-        </button>
-        <button class="burger-button" type="button">
-          <svg class="burger-icon" width="32" height="22">
-            <use href="./icons/icons-sprite.svg#icon-nav"></use>
-          </svg>
-        </button>
-      </div>
-    </nav>
-    <a class="header-sign-up-button" href="#sign-up" aria-label="sign up">
-      Sign up
-    </a>
-  </div>
+      <button class="header-menu-btn" type="button" aria-label="button">
+        <svg class="header-menu-btn-icon" width="32" height="22">
+          <use href="./icons/icons-sprite.svg#icon-nav"></use>
+        </svg>
+      </button>
+    </div>
+  </nav>
+  <a class="header-btn" href="#sign-up" aria-label="btn sign up">Sign up</a>
 </header>
 
 <div class="backdrop">
   <div class="mobile-menu">
-    <button class="button-close" type="button" aria-label="modal cloce button">
-      <svg class="icon-close-btn-menu" width="32" height="32">
+    <button class="mobile-button" type="button">
+      <svg class="menu-icon-close" width="32" height="32">
         <use href="./icons/icons-sprite.svg#icon-close"></use>
       </svg>
     </button>
-    <ul class="menu-mob-wrapper">
-      <li><a href="#about-us" class="menu-mobile-link bold">About us</a></li>
-      <li class="menu-mobile-link-normal">
-        <a href="#our-courses">Our courses</a>
+    <ul class="menu-wrapper">
+      <li class="menu-item bold">
+        <a href="#about-us" class="menu-link bold">About us</a>
       </li>
-      <li class="menu-mobile-link-normal">
-        <a href="#our-mentors">Our mentors</a>
+      <li class="menu-item">
+        <a href="#our-courses" class="menu-link">Our courses</a>
       </li>
-      <li class="menu-mobile-link-normal"><a href="#reviews">Reviews</a></li>
-      <li class="menu-mobile-link-normal"><a href="#contacts">contacts</a></li>
+      <li class="menu-item">
+        <a href="#our-mentors" class="menu-link">Our mentors</a>
+      </li>
+      <li class="menu-item">
+        <a href="#reviews" class="menu-link">Reviews</a>
+      </li>
+      <li class="menu-item">
+        <a href="#contacts" class="menu-link">Contacts</a>
+      </li>
     </ul>
-    <div class="bg-photo-menu"></div>
+    <div class="menu-image"></div>
   </div>
 </div>

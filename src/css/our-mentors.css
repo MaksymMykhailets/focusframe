@@ -41,17 +41,14 @@
   align-items: center;
   gap: 16px;
   width: 185px;
-  height: 240px;
 }
 @media only screen and (min-width: 768px) {
   .list-mentor {
-    width: calc((100% - 100px) / 2);
-    height: 250px;
+    width: 195px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .list-mentor {
-    width: calc((100% - 300px) / 4);
     width: 190px;
   }
 }
