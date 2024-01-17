@@ -126,7 +126,7 @@
     margin-bottom: 0;
   }
 }
-.form-email {
+.footer .form-email {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -146,6 +146,11 @@
   font-size: 16px;
   line-height: 2;
   border: none;
+}
+@media only screen and (max-width: 374.95px) {
+  .input-footer {
+    width: 200px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .input-footer {

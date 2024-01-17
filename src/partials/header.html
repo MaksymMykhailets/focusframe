@@ -43,8 +43,8 @@
   </div>
 </header>
 
-<div class="backdrop active">
-  <div class="mobile-menu active">
+<div class="backdrop">
+  <div class="mobile-menu">
     <button class="button-close" type="button" aria-label="modal cloce button">
       <svg class="icon-close-btn-menu" width="32" height="32">
         <use href="./icons/icons-sprite.svg#icon-close"></use>
@@ -53,36 +53,14 @@
     <ul class="menu-mob-wrapper">
       <li><a href="#about-us" class="menu-mobile-link bold">About us</a></li>
       <li class="menu-mobile-link-normal">
-        <a href="#our-courses"></a>Our courses
+        <a href="#our-courses">Our courses</a>
       </li>
       <li class="menu-mobile-link-normal">
-        <a href="#our-mentors"></a>Our mentors
+        <a href="#our-mentors">Our mentors</a>
       </li>
-      <li class="menu-mobile-link-normal"><a href="#reviews"></a>Reviews</li>
-      <li class="menu-mobile-link-normal"><a href="#contacts"></a>contacts</li>
+      <li class="menu-mobile-link-normal"><a href="#reviews">Reviews</a></li>
+      <li class="menu-mobile-link-normal"><a href="#contacts">contacts</a></li>
     </ul>
-    <picture>
-      <source
-        media="(min-width: 768px)"
-        srcset="
-          ./images/header-menu/menu-photo-tab.jpg    1x,
-          ./images/header-menu/menu-photo-tab@2x.jpg 2x
-        "
-      />
-      <source
-        media="(min-width: 320px)"
-        srcset="
-          ./images/header-menu/menu-photo-mob.jpg    1x,
-          ./images/header-menu/menu-photo-mob@2x.jpg 2x
-        "
-      />
-      <img
-        class="mob-menu-for-img"
-        src="./images/header-menu/menu-photo-mob.jpg "
-        alt="Camera menu"
-        width="329"
-        loading="lazy"
-      />
-    </picture>
+    <div class="bg-photo-menu"></div>
   </div>
 </div>
