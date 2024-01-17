@@ -44,8 +44,10 @@
 /* .reviews-section-item:last-child {
   visibility: hidden;
 } */
-.reviews-star-block {
-  margin-left: 65px;
+@media only screen and (max-width: 767.98px) {
+  .reviews-star-block {
+    margin-left: 88px;
+  }
 }
 .reviews-img {
   margin-right: 10px;
