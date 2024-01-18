@@ -1,0 +1,30 @@
+.wrapper-for-grid {
+  background-repeat: repeat;
+  background-size: contain;
+  background-image: url(../images/advertisement/net-mob.png);
+}
+@media only screen and (max-width: 767.98px) and (min-resolution: 192dpi) {
+  .wrapper-for-grid {
+    background-image: url(../images/advertisement/net-mob@2x.png);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .wrapper-for-grid {
+    background-image: url(../images/advertisement/net-tab.png);
+  }
+}
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .wrapper-for-grid {
+    background-image: url(../images/advertisement/net-tab@2x.png);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .wrapper-for-grid {
+    background-image: url(../images/advertisement/net-desk.png);
+  }
+}
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .wrapper-for-grid {
+    background-image: url(../images/advertisement/net-desk@2x.png);
+  }
+}
